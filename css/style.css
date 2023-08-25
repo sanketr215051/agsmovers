@@ -1,0 +1,386 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box !important;
+  }
+  header {
+    height: 450px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(8 8 8 / 72%) !important;
+  }
+  header .left {
+    position: absolute;
+    width: 88%;
+    left: -10%;
+  }
+  
+  header .right {
+    height: 450px;
+    left: 68%;
+    position: absolute;
+    width: 100%;
+    transform: skewx(-30deg);
+    border-left: 11px solid rgb(255, 255, 255);
+  }
+  .inner h4 {
+    position: absolute;
+      transform: skewx(30deg);
+      margin: -41px 0px 0px 12px;
+      color: white;
+      font-size: 1.6rem;
+  }
+  .inner button{
+    transform: skewx(30deg);
+      color: white;
+      margin: 0px 0px 0px 69px;
+      border: none;
+      font-size: 15px;
+      background: #b00000;
+  }
+  
+  
+  .card img:hover{
+    transition: 0.4s;
+      transform: scale(0.9);
+      box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 1px 2px rgba(0,0,0,.23);
+    }
+    
+  
+  .card {
+    position: relative;
+    border: none !important;
+  }
+  .card h4 {
+    position: absolute;
+    top: 50px;
+    background-color: #b00000;
+    color: #fff;
+    padding: 0 30px;
+    left: -13px;
+  }
+  .card h4::after {
+    content: "";
+    display: block;
+    height: 1.8rem;
+    width: 40px;
+    background-color: #b00000;
+    position: absolute;
+    right: -30px;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-30deg);
+  }
+  
+  .card h4::before {
+    content: "";
+    display: block;
+    height: 28px;
+    width: 25px;
+    background-color: #b00000;
+    position: absolute;
+    top: 9px;
+    right: 220px;
+    left: 0;
+    transform: skewY(35deg);
+  }
+  .quote button {
+    height: 30px !important;
+    margin-top: 9px;
+    font-size: 12px;
+    width: 132px;
+    font-weight: bold;
+  }
+  .nav-link {
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 17px;
+  }
+  .offerbtn a {
+    border: 2px solid #b00000;
+    padding: 6px 11px 6px 11px;
+    text-align: center;
+    color: #b00000;
+    text-transform: capitalize;
+    text-decoration: none;
+  }
+  .offercontc a {
+    border: 2px solid #b00000;
+    padding: 6px 11px 6px 11px;
+    text-align: center;
+    background-color: #b00000;
+    color: #fff;
+  
+    text-transform: capitalize;
+    text-decoration: none;
+  }
+  .offerrque a {
+    border: 2px solid #b00000;
+    padding: 6px 11px 6px 11px;
+    text-align: center;
+    color: #fff;
+    background-color: #b00000;
+    text-transform: capitalize;
+    text-decoration: none;
+  }
+  .offerbtn a:hover {
+    background-color: #b00000;
+    color: #fff;
+  }
+  
+  .section,
+  h2 {
+    font-size: 34px;
+    color: #b00000;
+  }
+  .section h4 h1 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 16px;
+  }
+  .mainservices {
+    background: #34313a;
+  }
+  
+  .link img:hover {
+    transform: scale(0.9);
+    transition: 0.2s linear all;
+  }
+  .Client_satisfaction img:hover {
+    transform: scale(0.9);
+    transition: 0.2s linear all;
+  }
+  
+  span {
+    margin-bottom: 38px;
+    display: block;
+    text-align: center;
+  }
+  span a:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+  span a {
+    color: #aaa;
+    padding: 0 5px;
+    font-size: 12px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .bgimg {
+    background-image: url("https://www.agsmovers.com/wp-content/uploads/2017/05/removals_bg.jpg");
+    background-size: 100% 100%;
+    width: 100%;
+    height: 385px;
+  }
+  .people h1 {
+    font-size: 2.4rem;
+    opacity: 1;
+    font-weight: bold;
+  }
+  b {
+    text-shadow: -1px 0px 5px #ffffff;
+  }
+  .bgimg button {
+    border: 2px solid #b00000;
+    height: 41px;
+    width: 181px;
+    text-align: center;
+    color: #fff;
+    background-color: #b00000;
+    padding-top: 4px;
+    text-transform: capitalize;
+    text-decoration: none;
+  }
+  
+  .backgroundimg {
+    background-image: url(" https://www.agsmovers.com/wp-content/uploads/2021/10/network-map-ags-movers_1200X700-en.jpg");
+    height: 500px;
+    border: none;
+    position: relative;
+    margin: auto;
+  }
+  .parag p {
+    margin: 0px 140px 12px 140px;
+  }
+  .parag button {
+    text-align: center;
+    color: #fff;
+    margin: 12px 9px 12px 9px;
+    padding: 9px 27px 9px 27px;
+    background-color: #b00000;
+    text-transform: capitalize;
+  }
+  .liste li {
+    list-style: none;
+    margin: auto;
+  }
+  .liste a {
+    color: #c9c6ce;
+    text-decoration: none;
+  }
+  .liste a:hover {
+    color: #f3f1f6;
+    text-decoration: underline;
+  }
+  .fa-brands,
+  .fab {
+    font-weight: 400;
+    color: #fff;
+  }
+  style attribute {
+    text-decoration: none;
+    color: white !important;
+  }
+  .footerbground {
+    background-color: #34313a !important;
+  }
+  .footerbground .container{
+    width:100%;
+  }
+  .footerbground .container .d-flex{
+    margin:0 12px;
+  }
+  .fa-2x {
+    font-size: 1.8em !important;
+    margin: 5px -3px 3px 5px;
+  }
+  #to-top{ 
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 99;
+    border: none;
+    color: #fff;
+    background: #b00000;
+    padding: 10PX;
+    border-radius: 10px;
+  }
+  #to-top:hover{
+    box-shadow:0 0 20px 0 rgba(0,0,0,0.3) ;
+    transform: translateY(-20px);
+     transition:0.3s linear all;
+     background-color: #ea0a0a;
+     color: #fff;
+     border-radius: 9%;
+  }
+  @media (max-width: 700px) {
+    .quote button {
+      height: 30px !important;
+      margin-top: 9px;
+      font-size: 12px;
+      width: 132px;
+      font-weight: bold;
+      margin-left: 8px !important;
+    }
+    span {
+      margin-bottom: 10px;
+      display: block !important;
+      color: #aaa;
+    }
+  
+    .card a {
+      flex-flow: column;
+    }
+    .service {
+      background: #34313a;
+      flex-flow: column;
+    }
+    .link,
+    img {
+      margin: auto;
+      margin-bottom: 1rem;
+    }
+    .client,
+    h3 {
+      text-align: center;
+      font-weight: 400;
+    }
+    .img-fluid {
+      max-width: 100%;
+      height: auto !important;
+    }
+    .world {
+      flex-flow: column;
+    }
+    .bgimg {
+      background-image: url("https://www.agsmovers.com/wp-content/uploads/2017/05/removals_bg.jpg");
+      background-size: 100% 100%;
+      width: 100%;
+      height: auto;
+    }
+    .parag p {
+      margin: 0px 0px 0px 0px;
+    }
+    .offerbtn a {
+      border: 2px solid #b00000;
+      padding: 6px 11px 6px 11px;
+      text-align: center;
+      text-transform: capitalize;
+      text-decoration: none;
+      font-size: small;
+    }
+    .offerque a  {
+    border: 2px solid #b00000;
+    padding: 6px 11px 6px 11px;
+    text-align: center;
+    background-color: #b00000;
+    color: #fff;
+    font-size: small;
+    text-transform: capitalize;
+    text-decoration: none;
+  }
+  header .right {
+    height: 450px;
+    left: 68%;
+    position: absolute;
+    width: 100%;
+    transform: skewx(-30deg);
+    display: none;
+    border-left: 11px solid rgb(255, 255, 255);
+  }
+  header .left {
+    position: absolute;
+    display:none;
+    width: auto;
+    left: -10%;
+  }
+  #home{
+    margin-top:-120px;
+  }
+  }
+  @media (max-width:768px) {
+    header .left{
+      height:100%;
+      width:100%;
+      margin-top:50px;
+    }
+  .aa span {
+    margin-top: 2.3rem !important;
+  }
+  }
+  
+  @media (max-width:1029.33px) {
+    header .right {
+      height: 450px;
+      left: 68%;
+      position: absolute;
+      width: 100%;
+      transform: skewx(-30deg);
+      display: none;
+      border-left: 11px solid rgb(255, 255, 255);
+    }
+    header .left {
+      position: absolute;
+      width: auto;
+      left: -10%;
+    }
+  }
